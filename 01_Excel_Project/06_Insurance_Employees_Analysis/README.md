@@ -8,6 +8,18 @@ A Microsoft Excel dashboard project that analyses telecaller performance across 
 
 ---
 
+## 🖼️ Dashboard Preview
+
+### Excel Dashboard (`Analysis_Dashboard` sheet)
+
+![Excel Dashboard](images/Excel_Dashboard.png)
+
+### Visual Analytics Dashboard
+
+![Telecaller Dashboard](images/Telecaller_Dashboard.png)
+
+---
+
 ## 📌 Project Overview
 
 Telecaller data (NOP dates, Wat amounts, last pickup dates) sits in many columns of one roster sheet, which makes review slow. This dashboard brings everything into one place so sales leadership can instantly see:
@@ -74,7 +86,7 @@ The roster sheet (`Imran_Team`) contains these columns:
 
 1. **Total volume** is ₹1,910,000 from 17 NOPs (avg ₹112,353 per NOP).
 2. **October is the peak month:** 11 NOPs and ₹1,210,000, which is 63% of all volume.
-3. **Volume is concentrated:** Owais Ahmad alone gives 25.7%, and the top 4 callers give 63%.
+3. **Volume is concentrated:** one caller gives 25.7% of volume, and the top 4 callers give 63%.
 4. **Repeat conversion is the gap:** adoption falls 82% → 55% → 9% from 1st to 3rd NOP.
 5. **Mid-tenure callers (2–3.5 months)** give 62% of volume, with all 5 active.
 6. **Inactivity is spreading:** 8 of 11 callers are quiet for 11+ days, and 2 new joiners still have 0 NOPs after 44 days.
@@ -87,6 +99,24 @@ The roster sheet (`Imran_Team`) contains these columns:
 | Gautam Sunny Babulal | 3 | 5 | 600,000 | 31.4% |
 | Alok | 3 | 4 | 420,000 | 22.0% |
 
+### Monthly summary
+
+| Month | NOPs | Volume (₹) | Note |
+|---|---|---|---|
+| Aug 2026 | 0 | 0 | Partial: tracking starts 25 Aug |
+| Sep 2026 | 3 | 260,000 | First full month |
+| Oct 2026 | 11 | 1,210,000 | Peak month |
+| Nov 2026 | 3 | 440,000 | Partial: data up to 13 Nov |
+
+### NOP stage progression
+
+| Stage | Callers | Adoption | Avg Days from Previous Stage |
+|---|---|---|---|
+| 1st NOP | 9 of 11 | 82% | 46.1 (from base date) |
+| 2nd NOP | 6 of 11 | 55% | 18.8 |
+| 3rd NOP | 1 of 11 | 9% | 11.0 |
+| 4th NOP | 1 of 11 | 9% | 28.0 |
+
 ## ✅ Business Recommendations
 
 - Coach zero-NOP callers with call shadowing and 1-on-1 reviews
@@ -98,7 +128,7 @@ The roster sheet (`Imran_Team`) contains these columns:
 
 ## 🛠️ Excel Features Used
 
-`SUM` • `SUMIF / SUMIFS` • `COUNT / COUNTIF / COUNTIFS` • `INDEX + MATCH` • `RANK` • `IFERROR` • Cell Linking • KPI Cards • Dashboard Formatting
+`SUM` • `SUMIF / SUMIFS` • `COUNT / COUNTIF / COUNTIFS` • `INDEX + MATCH` • `RANK` • `IFERROR` • Cell Linking • KPI Cards • Conditional Formatting • Dashboard Layout
 
 All metrics use live formulas, so the dashboard updates automatically when the roster changes.
 
@@ -124,6 +154,9 @@ All metrics use live formulas, so the dashboard updates automatically when the r
 ├── Telecaller_Employee_Performance.xlsx        # Roster data + Excel dashboard
 ├── Telecaller_Performance_Dashboard.pptx       # Presentation (17 slides)
 ├── Telecaller_Performance_Dashboard.pdf        # Presentation in PDF
+├── images/
+│   ├── Excel_Dashboard.png                     # Excel dashboard screenshot
+│   └── Telecaller_Dashboard.png                # Visual analytics dashboard
 └── README.md
 ```
 
@@ -138,6 +171,9 @@ All metrics use live formulas, so the dashboard updates automatically when the r
 
 **Asrarul Haque**
 Excel Dashboard Project • Telecaller Performance Analysis
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/your-profile)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/your-username)
 
 ---
 
