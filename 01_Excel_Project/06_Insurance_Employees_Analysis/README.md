@@ -10,7 +10,7 @@ Presented by **Asrarul Haque**
 
 | # | File | Description |
 |---|------|-------------|
-| 1 | [`01_Telecaller_Performance_Dashboard_Presentation.pdf`](01_Telecaller_Performance_Dashboard_Presentation.pdf) | 16-slide project presentation (objective, method, insights, recommendations) |
+| 1 | [`01_Telecaller_Performance_Dashboard_Presentation.pdf`](https://github.com/Asrarul320/Data-Analytics-Projects/blob/main/01_Excel_Project/06_Insurance_Employees_Analysis/01_Telecaller_Performance_Dashboard_Persentation.pdf) | 16-slide project presentation (objective, method, insights, recommendations) |
 | 2 | [`02_Telecaller_Analysis_Dashboard.png`](02_Telecaller_Analysis_Dashboard.png) | Snapshot image of the Excel analysis dashboard |
 | 3 | [`03_Telecaller_Emp_Performance.xlsx`](03_Telecaller_Emp_Performance.xlsx) | Excel workbook with the MIS data and the live dashboard |
 | 4 | `README.md` | Project documentation (this file) |
