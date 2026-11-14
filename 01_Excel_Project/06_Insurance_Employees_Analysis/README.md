@@ -19,7 +19,7 @@ Presented by **Asrarul Haque**
 
 ## Dashboard Preview
 
-![Telecaller Analysis Dashboard](02_Telecaller_Analysis_Dashboard.png)
+![Telecaller Analysis Dashboard](02_Telecaller_Analysis_Dashboard.jpeg)
 
 ---
 
